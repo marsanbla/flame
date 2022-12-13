@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "549508926692",
+    "project_id": "p2sanmar",
+    "storage_bucket": "p2sanmar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549508926692:android:e71cc65ad85eab79e9b0f1",
+        "android_client_info": {
+          "package_name": "com.example.p2sanmar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549508926692-kao3iakbkqv0kf26b8odfgg38b21mb3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ7QfYbr5koEVsdo-yV1xUsj9qHT72das"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549508926692-kao3iakbkqv0kf26b8odfgg38b21mb3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

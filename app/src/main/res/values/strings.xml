@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">p2sanmar</string>
+    <string name="addprod">AddProd</string>
+    <string name="readprod">ReadProd</string>
+</resources>
