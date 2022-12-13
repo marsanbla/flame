@@ -14,6 +14,7 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -34,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void readprod(View view) {
-        persistenciaprod read = new persistenciaprod();
-        persistenciaprod.readprod();
+        ArrayList<prods> productsArray = persistenciaprod.readprod();
+       prod1.setText
     }
 }

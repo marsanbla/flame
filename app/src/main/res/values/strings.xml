@@ -2,4 +2,5 @@
     <string name="app_name">p2sanmar</string>
     <string name="addprod">AddProd</string>
     <string name="readprod">ReadProd</string>
+    <string name="bd_management">BD MANAGEMENT</string>
 </resources>

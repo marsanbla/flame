@@ -11,8 +11,8 @@
         android:id="@+id/button"
         android:layout_width="161dp"
         android:layout_height="62dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="104dp"
         android:onClick="adddata"
         android:text="@string/addprod"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,13 +20,70 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="148dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="452dp"
+        android:layout_width="161dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="212dp"
+        android:onClick="readprod"
         android:text="@string/readprod"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bd_management"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:onClick="readprod"/>
+        app:layout_constraintVertical_bias="0.054" />
+
+    <TextView
+        android:id="@+id/prod1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="333dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/prod2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="398dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/prod3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="453dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/prod4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="520dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/prod5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="598dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
